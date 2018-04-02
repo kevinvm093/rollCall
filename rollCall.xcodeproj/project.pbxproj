@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6B59227DE2664D77B9E63A /* Pods_rollCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FBE6F1DEB7134D8688CB2A /* Pods_rollCall.framework */; };
 		D01FC3E4203A3A3B0087CBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FC3E3203A3A3B0087CBE1 /* AppDelegate.swift */; };
 		D01FC3E6203A3A3B0087CBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FC3E5203A3A3B0087CBE1 /* ViewController.swift */; };
 		D01FC3E9203A3A3B0087CBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FC3E7203A3A3B0087CBE1 /* Main.storyboard */; };
 		D01FC3EB203A3A3B0087CBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01FC3EA203A3A3B0087CBE1 /* Assets.xcassets */; };
 		D01FC3EE203A3A3B0087CBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FC3EC203A3A3B0087CBE1 /* LaunchScreen.storyboard */; };
+		D05760CD20699A1000955F99 /* viewStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05760CC20699A1000955F99 /* viewStudents.swift */; };
+		D05760CF206C4DC500955F99 /* attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05760CE206C4DC500955F99 /* attendance.swift */; };
+		D0D0D8EA203E39DD00A2E304 /* update_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0D8E9203E39DD00A2E304 /* update_ViewController.swift */; };
+		D0D0D8EC203E3D9F00A2E304 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0D0D8EB203E3D9E00A2E304 /* GoogleService-Info.plist */; };
+		D0D0D8EE203E81AA00A2E304 /* addStudent_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0D8ED203E81AA00A2E304 /* addStudent_ViewController.swift */; };
+		D0D0D8F320410DC700A2E304 /* deleteStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0D8F220410DC700A2E304 /* deleteStudent.swift */; };
+		D0E79E1E20684191005E404B /* STUDENT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E79E1D20684191005E404B /* STUDENT.swift */; };
+		D0F198E420681749003A12E5 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198E320681749003A12E5 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D7018EA35569C7ADEAAC01D /* Pods-rollCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rollCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rollCall/Pods-rollCall.debug.xcconfig"; sourceTree = "<group>"; };
+		C3FBE6F1DEB7134D8688CB2A /* Pods_rollCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rollCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01FC3E0203A3A3B0087CBE1 /* rollCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rollCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01FC3E3203A3A3B0087CBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D01FC3E5203A3A3B0087CBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,15 @@
 		D01FC3EA203A3A3B0087CBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01FC3ED203A3A3B0087CBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01FC3EF203A3A3B0087CBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05760CC20699A1000955F99 /* viewStudents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewStudents.swift; sourceTree = "<group>"; };
+		D05760CE206C4DC500955F99 /* attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = attendance.swift; sourceTree = "<group>"; };
+		D0D0D8E9203E39DD00A2E304 /* update_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = update_ViewController.swift; sourceTree = "<group>"; };
+		D0D0D8EB203E3D9E00A2E304 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0D0D8ED203E81AA00A2E304 /* addStudent_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addStudent_ViewController.swift; sourceTree = "<group>"; };
+		D0D0D8F220410DC700A2E304 /* deleteStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deleteStudent.swift; sourceTree = "<group>"; };
+		D0E79E1D20684191005E404B /* STUDENT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STUDENT.swift; sourceTree = "<group>"; };
+		D0F198E320681749003A12E5 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		F7491524388B42E1EBE815EF /* Pods-rollCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rollCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-rollCall/Pods-rollCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B59227DE2664D77B9E63A /* Pods_rollCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49CBE6B0A4EE9DB715120327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3FBE6F1DEB7134D8688CB2A /* Pods_rollCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96F6D86FA1277AA0AFF1DCB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7018EA35569C7ADEAAC01D /* Pods-rollCall.debug.xcconfig */,
+				F7491524388B42E1EBE815EF /* Pods-rollCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D01FC3D7203A3A390087CBE1 = {
 			isa = PBXGroup;
 			children = (
+				D0F198E320681749003A12E5 /* data.swift */,
 				D01FC3E2203A3A3B0087CBE1 /* rollCall */,
 				D01FC3E1203A3A3B0087CBE1 /* Products */,
+				96F6D86FA1277AA0AFF1DCB1 /* Pods */,
+				49CBE6B0A4EE9DB715120327 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +98,15 @@
 				D01FC3E3203A3A3B0087CBE1 /* AppDelegate.swift */,
 				D01FC3E5203A3A3B0087CBE1 /* ViewController.swift */,
 				D01FC3E7203A3A3B0087CBE1 /* Main.storyboard */,
+				D05760CE206C4DC500955F99 /* attendance.swift */,
+				D0D0D8ED203E81AA00A2E304 /* addStudent_ViewController.swift */,
+				D0D0D8F220410DC700A2E304 /* deleteStudent.swift */,
+				D0E79E1D20684191005E404B /* STUDENT.swift */,
+				D05760CC20699A1000955F99 /* viewStudents.swift */,
+				D0D0D8E9203E39DD00A2E304 /* update_ViewController.swift */,
 				D01FC3EA203A3A3B0087CBE1 /* Assets.xcassets */,
 				D01FC3EC203A3A3B0087CBE1 /* LaunchScreen.storyboard */,
+				D0D0D8EB203E3D9E00A2E304 /* GoogleService-Info.plist */,
 				D01FC3EF203A3A3B0087CBE1 /* Info.plist */,
 			);
 			path = rollCall;
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D01FC3F2203A3A3B0087CBE1 /* Build configuration list for PBXNativeTarget "rollCall" */;
 			buildPhases = (
+				0B178BD4B34C217D8D475785 /* [CP] Check Pods Manifest.lock */,
 				D01FC3DC203A3A390087CBE1 /* Sources */,
 				D01FC3DD203A3A390087CBE1 /* Frameworks */,
 				D01FC3DE203A3A390087CBE1 /* Resources */,
+				4E854104D31F476D5543E0F3 /* [CP] Embed Pods Frameworks */,
+				7FC240F57AABE0F859E0EA30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01FC3EE203A3A3B0087CBE1 /* LaunchScreen.storyboard in Resources */,
+				D0D0D8EC203E3D9F00A2E304 /* GoogleService-Info.plist in Resources */,
 				D01FC3EB203A3A3B0087CBE1 /* Assets.xcassets in Resources */,
 				D01FC3E9203A3A3B0087CBE1 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +184,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B178BD4B34C217D8D475785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rollCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E854104D31F476D5543E0F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rollCall/Pods-rollCall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rollCall/Pods-rollCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC240F57AABE0F859E0EA30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rollCall/Pods-rollCall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D01FC3DC203A3A390087CBE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D0D8EE203E81AA00A2E304 /* addStudent_ViewController.swift in Sources */,
+				D05760CF206C4DC500955F99 /* attendance.swift in Sources */,
+				D0F198E420681749003A12E5 /* data.swift in Sources */,
+				D05760CD20699A1000955F99 /* viewStudents.swift in Sources */,
 				D01FC3E6203A3A3B0087CBE1 /* ViewController.swift in Sources */,
+				D0D0D8F320410DC700A2E304 /* deleteStudent.swift in Sources */,
+				D0E79E1E20684191005E404B /* STUDENT.swift in Sources */,
+				D0D0D8EA203E39DD00A2E304 /* update_ViewController.swift in Sources */,
 				D01FC3E4203A3A3B0087CBE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +378,7 @@
 		};
 		D01FC3F3203A3A3B0087CBE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7018EA35569C7ADEAAC01D /* Pods-rollCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67NGABWL3F;
@@ -272,6 +392,7 @@
 		};
 		D01FC3F4203A3A3B0087CBE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7491524388B42E1EBE815EF /* Pods-rollCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67NGABWL3F;
@@ -302,6 +423,7 @@
 				D01FC3F4203A3A3B0087CBE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
