@@ -4,12 +4,52 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GTMSessionFetcher.xcscheme</key>
+		<key>FirebaseAuth-framework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GoogleToolboxForMac.xcscheme</key>
+		<key>FirebaseAuth-library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FirebaseCore-framework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FirebaseCore-library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FirebaseDatabase-framework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FirebaseDatabase-library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GTMSessionFetcher-framework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GTMSessionFetcher-library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleUtilities-framework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleUtilities-library.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,12 +59,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>leveldb-library.xcscheme</key>
+		<key>Pods-rollCallTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>nanopb.xcscheme</key>
+		<key>leveldb-library-framework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>leveldb-library-library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>nanopb-framework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>nanopb-library.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +87,82 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
+		<key>04D1A3D4B187AAEC93807AF53B8F68CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>235E0E4752C7037E64D537FA3AF671F3</key>
+		<key>0E37E6F3BD07646D09B3F08106F31BF9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3B08C49A396BAA0D9DCAD4460CC52F95</key>
+		<key>24372AEC35D0A455ECCC330F165B66CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<key>2771DDDAFE8B265CCF4B7E26FDD5F10A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E4DD95323C54A78F879DAB0F1508B8E7</key>
+		<key>3CB45B51C9BC1DF6266325F19A5FFC3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CFCB75CA47860D63E18B296679FEF47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E0532A2AA2A9B80A5737503F1EA8970</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57622B1D12B20B07133B60B06A55E01B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CD49D0EA702055A1C474CC5620588C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83864C213700A12AC898F7A0F00DC20B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF96423F79D0021CE40B874CF914EA50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C766E0E4AB4B3B7F27D94CAA07A93857</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8542A16EAC92FB589FBCEB09F6C2143</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D639C353D1CE255A85301206A0FFEBF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC7F102152CE52B73F794511765ED3D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1FF00E3D7FEEBA46AF696CD531D894C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

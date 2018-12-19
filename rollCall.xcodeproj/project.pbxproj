@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99DB91564A911CA4A92320FF /* libPods-rollCallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4608F88E9647C99EF051E029 /* libPods-rollCallTests.a */; };
 		CB6B59227DE2664D77B9E63A /* Pods_rollCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FBE6F1DEB7134D8688CB2A /* Pods_rollCall.framework */; };
 		D01FC3E4203A3A3B0087CBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FC3E3203A3A3B0087CBE1 /* AppDelegate.swift */; };
 		D01FC3E6203A3A3B0087CBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FC3E5203A3A3B0087CBE1 /* ViewController.swift */; };
 		D01FC3E9203A3A3B0087CBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FC3E7203A3A3B0087CBE1 /* Main.storyboard */; };
 		D01FC3EB203A3A3B0087CBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01FC3EA203A3A3B0087CBE1 /* Assets.xcassets */; };
 		D01FC3EE203A3A3B0087CBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FC3EC203A3A3B0087CBE1 /* LaunchScreen.storyboard */; };
+		D02F25272137310D00E29B79 /* rollCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02F25262137310D00E29B79 /* rollCallTests.swift */; };
 		D05760CD20699A1000955F99 /* viewStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05760CC20699A1000955F99 /* viewStudents.swift */; };
 		D05760CF206C4DC500955F99 /* attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05760CE206C4DC500955F99 /* attendance.swift */; };
 		D0D0D8EA203E39DD00A2E304 /* update_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0D8E9203E39DD00A2E304 /* update_ViewController.swift */; };
@@ -23,7 +25,19 @@
 		D0F198E420681749003A12E5 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198E320681749003A12E5 /* data.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D02F25292137310D00E29B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01FC3D8203A3A390087CBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01FC3DF203A3A390087CBE1;
+			remoteInfo = rollCall;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		30B06E06B035B0CC357E7BF5 /* Pods-rollCallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rollCallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rollCallTests/Pods-rollCallTests.release.xcconfig"; sourceTree = "<group>"; };
+		4608F88E9647C99EF051E029 /* libPods-rollCallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rollCallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7018EA35569C7ADEAAC01D /* Pods-rollCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rollCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rollCall/Pods-rollCall.debug.xcconfig"; sourceTree = "<group>"; };
 		C3FBE6F1DEB7134D8688CB2A /* Pods_rollCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rollCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01FC3E0203A3A3B0087CBE1 /* rollCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rollCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +47,9 @@
 		D01FC3EA203A3A3B0087CBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01FC3ED203A3A3B0087CBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01FC3EF203A3A3B0087CBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02F25242137310C00E29B79 /* rollCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rollCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02F25262137310D00E29B79 /* rollCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollCallTests.swift; sourceTree = "<group>"; };
+		D02F25282137310D00E29B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D05760CC20699A1000955F99 /* viewStudents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewStudents.swift; sourceTree = "<group>"; };
 		D05760CE206C4DC500955F99 /* attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = attendance.swift; sourceTree = "<group>"; };
 		D0D0D8E9203E39DD00A2E304 /* update_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = update_ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +59,7 @@
 		D0E79E1D20684191005E404B /* STUDENT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STUDENT.swift; sourceTree = "<group>"; };
 		D0F198E320681749003A12E5 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		F7491524388B42E1EBE815EF /* Pods-rollCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rollCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-rollCall/Pods-rollCall.release.xcconfig"; sourceTree = "<group>"; };
+		F7C051BE3EE9BCEFFC025ACC /* Pods-rollCallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rollCallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rollCallTests/Pods-rollCallTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D02F25212137310C00E29B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DB91564A911CA4A92320FF /* libPods-rollCallTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				C3FBE6F1DEB7134D8688CB2A /* Pods_rollCall.framework */,
+				4608F88E9647C99EF051E029 /* libPods-rollCallTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,6 +96,8 @@
 			children = (
 				5D7018EA35569C7ADEAAC01D /* Pods-rollCall.debug.xcconfig */,
 				F7491524388B42E1EBE815EF /* Pods-rollCall.release.xcconfig */,
+				F7C051BE3EE9BCEFFC025ACC /* Pods-rollCallTests.debug.xcconfig */,
+				30B06E06B035B0CC357E7BF5 /* Pods-rollCallTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -78,6 +107,7 @@
 			children = (
 				D0F198E320681749003A12E5 /* data.swift */,
 				D01FC3E2203A3A3B0087CBE1 /* rollCall */,
+				D02F25252137310D00E29B79 /* rollCallTests */,
 				D01FC3E1203A3A3B0087CBE1 /* Products */,
 				96F6D86FA1277AA0AFF1DCB1 /* Pods */,
 				49CBE6B0A4EE9DB715120327 /* Frameworks */,
@@ -88,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D01FC3E0203A3A3B0087CBE1 /* rollCall.app */,
+				D02F25242137310C00E29B79 /* rollCallTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +141,15 @@
 				D01FC3EF203A3A3B0087CBE1 /* Info.plist */,
 			);
 			path = rollCall;
+			sourceTree = "<group>";
+		};
+		D02F25252137310D00E29B79 /* rollCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02F25262137310D00E29B79 /* rollCallTests.swift */,
+				D02F25282137310D00E29B79 /* Info.plist */,
+			);
+			path = rollCallTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +175,27 @@
 			productReference = D01FC3E0203A3A3B0087CBE1 /* rollCall.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D02F25232137310C00E29B79 /* rollCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02F252D2137310D00E29B79 /* Build configuration list for PBXNativeTarget "rollCallTests" */;
+			buildPhases = (
+				E1EA9837A2ECC914EB8E4A39 /* [CP] Check Pods Manifest.lock */,
+				D02F25202137310C00E29B79 /* Sources */,
+				D02F25212137310C00E29B79 /* Frameworks */,
+				D02F25222137310C00E29B79 /* Resources */,
+				C8E075C9FE5EEBC64BE5ABAF /* [CP] Embed Pods Frameworks */,
+				FCA750DDE10AA0EC8D65F4AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02F252A2137310D00E29B79 /* PBXTargetDependency */,
+			);
+			name = rollCallTests;
+			productName = rollCallTests;
+			productReference = D02F25242137310C00E29B79 /* rollCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +210,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 67NGABWL3F;
 						ProvisioningStyle = Automatic;
+					};
+					D02F25232137310C00E29B79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 67NGABWL3F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D01FC3DF203A3A390087CBE1;
 					};
 				};
 			};
@@ -166,6 +233,7 @@
 			projectRoot = "";
 			targets = (
 				D01FC3DF203A3A390087CBE1 /* rollCall */,
+				D02F25232137310C00E29B79 /* rollCallTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +247,13 @@
 				D0D0D8EC203E3D9F00A2E304 /* GoogleService-Info.plist in Resources */,
 				D01FC3EB203A3A3B0087CBE1 /* Assets.xcassets in Resources */,
 				D01FC3E9203A3A3B0087CBE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02F25222137310C00E29B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,15 +285,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-rollCall/Pods-rollCall-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-framework/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library-framework/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -242,6 +317,54 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rollCall/Pods-rollCall-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C8E075C9FE5EEBC64BE5ABAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rollCallTests/Pods-rollCallTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1EA9837A2ECC914EB8E4A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rollCallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA750DDE10AA0EC8D65F4AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rollCallTests/Pods-rollCallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,7 +384,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D02F25202137310C00E29B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F25272137310D00E29B79 /* rollCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D02F252A2137310D00E29B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01FC3DF203A3A390087CBE1 /* rollCall */;
+			targetProxy = D02F25292137310D00E29B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D01FC3E7203A3A3B0087CBE1 /* Main.storyboard */ = {
@@ -382,6 +521,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67NGABWL3F;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+				);
 				INFOPLIST_FILE = rollCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kv093.rollCall;
@@ -396,11 +548,54 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67NGABWL3F;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+				);
 				INFOPLIST_FILE = rollCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kv093.rollCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D02F252B2137310D00E29B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C051BE3EE9BCEFFC025ACC /* Pods-rollCallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67NGABWL3F;
+				INFOPLIST_FILE = rollCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kv093.rollCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rollCall.app/rollCall";
+			};
+			name = Debug;
+		};
+		D02F252C2137310D00E29B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B06E06B035B0CC357E7BF5 /* Pods-rollCallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67NGABWL3F;
+				INFOPLIST_FILE = rollCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kv093.rollCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rollCall.app/rollCall";
 			};
 			name = Release;
 		};
@@ -424,6 +619,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D02F252D2137310D00E29B79 /* Build configuration list for PBXNativeTarget "rollCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02F252B2137310D00E29B79 /* Debug */,
+				D02F252C2137310D00E29B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

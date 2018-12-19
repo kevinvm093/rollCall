@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "235E0E4752C7037E64D537FA3AF671F3"
+               BlueprintIdentifier = "D639C353D1CE255A85301206A0FFEBF5"
                BuildableName = "Pods_rollCall.framework"
                BlueprintName = "Pods-rollCall"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "235E0E4752C7037E64D537FA3AF671F3"
+            BlueprintIdentifier = "D639C353D1CE255A85301206A0FFEBF5"
             BuildableName = "Pods_rollCall.framework"
             BlueprintName = "Pods-rollCall"
             ReferencedContainer = "container:Pods.xcodeproj">

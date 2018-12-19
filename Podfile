@@ -11,3 +11,9 @@ target 'rollCall' do
 	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
 end
+
+target 'rollCallTests' do
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
+end
